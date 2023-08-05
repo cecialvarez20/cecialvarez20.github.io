@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Mi portafolio</title>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="#des">Sobre mi</a></li>
+        <li><a href="#edu">Educación</a></li>
+        <li><a href="#exp">Experiencia</a></li>
+        <li><a href="#hab">Habilidades y conocimientos</a></li>
+        <li><a href="#per">Perfiles sociales</a></li>
+        <li><a href="#idi">Idiomas</a></li>
+        <li><a href="#con">Contacto</a></li>
+    </ul>
+
+    <hr>
+    <h1>Cecilia Álvarez</h1>
+    <div class="presentacion">
+
+        <p id="desc"> ¡Hola! Bienvenid@s a mi portafolio. Mi nombre es Cecilia y tengo 25 años. Nací en Montevideo y vivo
+            en Shangrila, Canelones. Estudio en Facultad de Medicina y desarrollo
+            web en Jap. Me considero una persona responsable, flexible y muy comunicativa. Actualmente trabajo en
+            Atención al cliente en Geant, en donde logré desarrollar y mejorar varias habilidades, entre ellas el
+            trabajo en equipo.</p>
+    </div>
+    <br>
+    <hr>
+    <div class="contenedor">
+        <div class="formacion">
+            <h2 id="edu">Educación:</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Institución</th>
+                        <th>Duración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Doctor en Medicina</td>
+                        <td>Facultad de Medicina, Udelar.</td>
+                        <td>En curso</td>
+                    </tr>
+                    <tr>
+                        <td>Curso JaP - Fase 1</td>
+                        <td>Plan Ceibal</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo web - Fase 2</td>
+                        <td>Plan Ceibal</td>
+                        <td>En curso</td>
+                    </tr>
+                </tbody>
+            </table> <br>
+            <hr>
+
+            <h2 id="exp">Experiencia:</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Desde</th>
+                        <th>Hasta</th>
+                        <th>Empresa</th>
+                        <th>Cargo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>Presente</td>
+                        <td>Hipermercado Geant</td>
+                        <td>Cajera / Atención al cliente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="conocimientos">
+            <h2 id="hab">Habilidades y conocimientos:</h2>
+
+            <ul>
+                <li><strong>Primeros auxilios:</strong> Reanimación cardiopulmonar (RCP).</li>
+                <li><strong>Seguridad alimentaria:</strong> Certificado de manipulación de alimentos.</li>
+                <li><strong>Desarrollo web:</strong> HTML, CSS y JavaScript.</li>
+                <li><strong>Microsoft:</strong> Excel y Word.</li>
+            </ul>
+            <br>
+            <hr>
+
+            <h2 id="idi">Idiomas:</h2>
+            <label for="spanish"><strong id="esp">Español:</strong> 100%</label>
+            <meter id="spanish" min="0" max="5" value="5" hidden>5</meter>
+            <div class="nivel-idioma">
+                <div class="barra-idioma"></div>
+                <div class="barra-idioma"></div>
+                <div class="barra-idioma"></div>
+                <div class="barra-idioma"></div>
+                <div class="barra-idioma"></div>
+            </div>
+            <br>
+            <label for="english"><strong id="ing">Inglés:</strong> 40%</label>
+            <meter id="english" max="5" value="2" hidden>2</meter>
+            <div class="nivel-idioma">
+                <div class="barra-idioma"></div>
+                <div class="barra-idioma"></div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <hr>
+    <div class="social">
+
+        <div class="perfiles">
+            <h2 id="per">Perfiles sociales</h2>
+            <p>También puedes encontrarme en:</p>
+            <ul>
+                <li><a href="https://github.com/ceciliaalvarezbarros">Github</a></li>
+                <li><a href="https://www.instagram.com/waytothemoon_/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/cecilia.alvarez.7374480" target="_blank">Facebook</a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <h2 id="con">Contacto:</h2>
+
+            <form action="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="name">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="surname"> <br>
+                <br>
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="mail"> <br>
+                <br>
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto" id="asunto">
+                <label for="tematica">Temática:</label>
+                <select name="tematica" id="tematica">
+                    <option value="" hidden selected disabled>-- Elige un tema --</option>
+                    <option value="1">Consulta</option>
+                    <option value="2">Propuesta</option>
+                    <option value="3">Otro</option>
+                </select> <br>
+                <br>
+                <div><label for="mensaje">Mensaje:</label></div>
+                <textarea name="msj" id="mensaje"></textarea> <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

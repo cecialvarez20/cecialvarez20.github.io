@@ -1,0 +1,181 @@
+body {
+    background-color: #f3ced4;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(j-lee-8RrWeI2OPEs-unsplash.jpg);
+    background-size: cover;
+    color: rgb(70, 66, 66)
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: hwb(0 80% 7%);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(238, 58, 118);
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: rgb(247, 192, 210)
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: rgb(182, 94, 94);
+}
+
+#desc {
+    color: rgb(44, 43, 43);
+}
+
+table {
+    width: 85%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: center;
+    background-color: #f1e4e7;
+    margin-inline: 150px;
+}
+
+.formacion {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+
+.conocimientos {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.social {
+    width: 100%;
+}
+
+.nivel-idioma {
+    display: flex;
+}
+
+.barra-idioma {
+    height: 15px;
+    width: 40px;
+    margin: 2px;
+    background-color: rgb(214, 141, 151);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1e1e1;
+}
+
+th {
+    background-color: #e29393;
+    color: rgb(248, 238, 238);
+}
+
+strong {
+    color: #df8282;
+    text-decoration: underline;
+}
+
+.social {
+    width: 100%;
+    height: 100%;
+}
+
+.social li a:active {
+    color: rgb(184, 76, 81);
+    margin-top: 200px;
+}
+
+.social li a {
+    text-decoration: none;
+    color: rgb(238, 58, 118)
+}
+
+#esp, #ing {
+    text-decoration: none;
+}
+.perfiles {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#con {
+    text-decoration: underline;
+}
+
+.contacto {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+input[type=email]o {
+    width: 66%;
+}
+
+textarea {
+    width: 66%;
+    height: 100px;
+}
+
+input[type=text], input[type=email], textarea, select {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(207, 145, 145);
+    background: rgb(238, 217, 221);
+    color: rgb(70, 66, 66);
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(235, 148, 148);
+}
+
+input[type=submit] {
+    padding: 9px 12px;
+    cursor: pointer;
+    margin-left: 70%;
+    background-color: #f7dada;
+    border-radius: 10px;
+    border-color: rgb(207, 145, 145);
+}
